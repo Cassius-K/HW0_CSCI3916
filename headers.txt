@@ -1,0 +1,68 @@
+Search Request:
+
+Request:
+
+Hidden:
+Keys            Values                                -
+Postman-Token    <calculated when request is sent>    - A unique token that is used to identify the request that has been sent or will be sent by postman
+Host             <calculated when request is sent>    - The target host that is used for the request
+User-Agent       PostmanRuntime/7.51.1                - The user agent is set by the cleint to ifentify information that is used by or pertains to the client
+Accept           */*                                  - Accept, this is used to know what the client will accept (specifically all data in this variation)
+Accept-Encoding  gzip,deflate,br                      - compression methods used by the client
+Connection       keep-alive                           - Keeps the connection open for future requests after the first (uses TCP)
+
+Visible:
+Null
+
+Response:
+
+Hidden:
+Null
+
+Visible:
+Keys                Values                                -
+Server              nginx/1.28.1                          - The Server that the client is using to generrate a response
+Date                Sun,01 Feb 2026 4:54:37 GMT           - The date the query/response was generated 
+Content-Type        application/json                      - Tells the client was the content of the response (Json format)
+Transfer-Encoding   Chunked                               - Response is sent in encoded chunks rather than all at once
+Connection          keep-alive                            - Keeps the connection open for future requests after the first (uses TCP)
+x-served-by         FastAPI                               - Web application server technology used when fetching the request
+Referrer-Policy     no-referrer-when-downgrade            - Determines how much referrer data is sent when using a request (in this case none is sent when going from HTTPS -> HTTP) 
+Content-Encoding    gzip                                  - The response is compressed using the gzip compression method
+
+
+
+Work Key Request:
+
+Request:
+
+Hidden:
+Keys            Values
+Postman-Token    <calculated when request is sent>    - A unique token that is used to identify the request that has been sent or will be sent by postman
+Host             <calculated when request is sent>    - The target host that is used for the request
+User-Agent       PostmanRuntime/7.51.1                - The user agent is set by the cleint to ifentify information that is used by or pertains to the client
+Accept           */*                                  - Accept, this is used to know what the client will accept (specifically all data in this variation)
+Accept-Encoding  gzip,deflate,br                      - compression methods used by the client
+Connection       keep-alive                           - Keeps the connection open for future requests after the first (uses TCP)
+
+Visible:
+Null
+
+Response:
+
+Hidden:
+Null
+
+Visible:
+Keys                          Values
+Server                        nginx/1.28.1                          - The Server that the client is using to generrate a response
+Date                          Sun,01 Feb 2026 4:54:37 GMT           - The date the query/response was generated 
+Content-Type                  application/json                      - Tells the client was the content of the response (Json format)
+Transfer-Encoding             Chunked                               - Response is sent in encoded chunks rather than all at once
+Connection                    keep-alive                            - Keeps the connection open for future requests after the first (uses TCP)
+access-control-allow-origin   *                                     - Specifies which domains can access resources from certain origins ( * means that all resources can be accessed by everyone)
+access-control-allow-method   GET, OPTIONS                          - Specifies which HTTP methods are permitted when making requests to a server from differing origin
+access-control-allow-age      86400                                 - Specifies how long the results of the request can be cached for (in this case 24 hours or 86400 seconds)
+x-ol-stats                    "MC 2 0.003 TT 0 0.008"               - Custom statistics header to track data about the response
+Referrer-Policy               no-referrer-when-downgrade            - Determines how much referrer data is sent when using a request (in this case none is sent when going from HTTPS -> HTTP)
+Content-Encoding              gzip                                  - The response is compressed using the gzip compression method
